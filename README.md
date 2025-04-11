@@ -4,7 +4,7 @@ A polynomial regression model that predicts an AHI (Apnea Hypopnea Index) based 
 
 ## Description
 
-This model is for general use (not clinical use) to allow men to calcuate a predicted value of AHI to give an estimation of the risk of possible sleep apnea.
+This model is for general use (not clinical use) to allow men to calcuate a predicted value of AHI to give an estimation of the risk of possible sleep apnea. This concerns further clinical action.
 
 ### Dependencies
 
