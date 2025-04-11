@@ -1,52 +1,61 @@
-# Project Title
+# SLEEP APNEA AHI CALCULATOR
 
-Simple overview of use/purpose.
+A polynomial regression model that predicts an AHI (Apnea Hypopnea Index) based on age and BMI values for men.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
-
-## Getting Started
+This model is for general use (not clinical use) to allow men to calcuate a predicted value of AHI to give an estimation of the risk of possible sleep apnea.
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+these required rependencies for this project
+
+numpy
+matplotlib
+pandas
+scikit-learn
+keras
+pydot
+graphviz
+pydot-ng
+pillow
+pydotplus
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+run the module installer:
+
+pip install -r requirements.txt
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+run the program polyAHI.py
+
+input your age
+
+input your BMI
+
+will return a predicted AHI result
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+this model does not have enough data, as such it is not very accurate and will sometimes return negative values
 
 ## Authors
 
-Contributors names and contact info
+Mr Jones
+[@benpaddlejones](https://github.com/benpaddlejones)
 
-ex. Mr Jones
-ex. [@benpaddlejones](https://github.com/benpaddlejones)
+Crawlford
+helped in broken merge
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]() or see [branch]()
-* 0.1
-    * Initial Release
+- 0.2
+  - Various bug fixes and optimizations
+  - See [commit change]() or See [release history]() or see [branch]()
+- 0.1
+  - Initial Release
 
 ## License
 
@@ -55,5 +64,6 @@ This project is licensed under the [NAME HERE] License - see the LICENSE.md file
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
-* [Github md syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-* [TempeHS Jupyter-Notebook template](https://github.com/TempeHS/TempeHS_Jupyter-Notebook_DevContainer)
+
+- [Github md syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [TempeHS Jupyter-Notebook template](https://github.com/TempeHS/TempeHS_Jupyter-Notebook_DevContainer)
